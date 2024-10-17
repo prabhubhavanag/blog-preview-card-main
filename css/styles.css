@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+body {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4d04e;
+  font-family: FigTree;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: solid 1px #111111;
+  height: 100%;
+  max-width: 384px;
+  box-shadow: 8px 8px #111111;
+}
+
+.card img {
+  border-radius: 10px;
+  margin: 24px;
+}
+
+.category {
+  background-color: #f4d04e;
+  width: fit-content;
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-weight: bold;
+  padding: 4px 12px 4px 12px;
+}
+
+.publishDate {
+  font-size: 0.875rem;
+  line-height: 150%;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.title:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.content {
+  margin: 0 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.75rem;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-height: 32px;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+
+.authorName {
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-weight: bolder;
+  padding-left: 12px;
+  margin: auto;
+}
+
+.author img {
+  margin: 0;
+  height: 32px;
+}
