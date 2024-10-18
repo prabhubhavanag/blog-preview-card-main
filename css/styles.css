@@ -70,7 +70,7 @@ h2 {
 
 .desc {
   font-size: var(--fs-med);
-  color: var(--gray-950);
+  color: var(--gray-500);
   margin: 12px 0 0 0;
 }
 
