@@ -1,5 +1,5 @@
 @font-face {
   font-family: FigTree;
-  src: url('../assets/fonts/Figtree-VariableFont_wght.ttf');
+  src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 900;
 }
