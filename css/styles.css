@@ -59,6 +59,7 @@ h2:focus-visible {
 }
 
 .pub-date {
+  font-size: var(--fs-med);
   margin: 8px 0 0 0;
 }
 
